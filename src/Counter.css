@@ -1,0 +1,70 @@
+.app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+  
+  }
+  
+  h2 {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .app > * {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  
+  .counter-value {
+    margin-top: 23px;
+    color: #ebd5d5;
+    font-size: 30px;
+  }
+  
+  .buttons {
+    margin: 0 auto;
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btnApp {
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+    border: none;
+    font-size: 21px;
+    background-color: #181920;
+    color: white;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.75;
+  }
+  
+  .inputs {
+    margin-top: 20px;
+    display: inline-block;
+  }
+  input {
+      border-radius: 30%;
+      width: 40px;
+      height: 40px;
+      border: none;
+      font-size: 21px;
+      background-color: #181920;
+      color: white;
+      margin-left: 10px;
+      cursor: pointer;
+  }
+  
+  .db {
+    background-color: rgb(188, 11, 11);
+  }

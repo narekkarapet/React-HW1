@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './Counter.css';
+
+
+import Counter from './Counter';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Ex3App from './Ex3/Ex3App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    // <App />, // ex2
+    // <Counter /> // ex1
+    <Ex3App />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
